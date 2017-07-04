@@ -1,0 +1,20 @@
+to fun-with-strings
+  ; explain some basic things to do with string
+  
+  let string "this is a test"
+  
+  print length string ; "14"
+  
+  print empty? string ; true if string is empty, false otherwise
+   ; string are zero-based, therfore, to extract the 4th Character, use:
+  print item  3 string
+end
+ 
+ 
+to fun-with-lists 
+  ; explain what to do with lists
+  let a-list [ 0 "this is a test" true ] 
+  ; lists are zero-based, therefore, in order to access the 3rd item, i do:
+  print item 2 a-list
+ 
+end

@@ -1,0 +1,24 @@
+to calculate 
+  ; do some simple calculation and output them
+  
+  let result 0
+  let a 14
+  let b 6
+
+  ; assign a+b to result 
+
+  set result a + b
+
+  print (word "The result of " a " and " b " is " result) 
+  ;word is special char two concatenation two string
+
+  ; advanced cases
+  
+  set result 10
+  set result result * result
+  
+  print (word "Multiply result by result gives " result)
+  
+  ;calculate like  / * - +
+end
+ 

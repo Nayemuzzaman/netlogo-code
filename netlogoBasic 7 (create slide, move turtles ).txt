@@ -1,0 +1,33 @@
+to fun-with-agentsets
+  ask turtles [
+    print self
+    
+    set color red
+  ]
+end
+
+; create Setup button for setup
+; create numturtles slide and add after create-turtles  
+ 
+to setup 
+  create-turtles numturtles[
+        set color yellow
+        set heading 0
+        set shape "arrow"
+        set pen-mode "down"
+  
+  ]
+  
+end
+
+;create simulate button for go 
+
+to go
+  print "simulating"
+  ask turtles [
+    let dice random 3
+    let change (dice - 1)
+    forward 1
+    set heading (heading + change)
+  ]
+end

@@ -1,0 +1,10 @@
+to data-type
+  ; explain data type and used variables
+  let number 0
+  let string "this is a test"
+  let boolean true
+  let a-list [ 0 "this is test" true ] ; a list containing item, a number, a string and: a boolean
+  let all-turtles turtles ; all turtles (agentset)
+  let all-patches patches ; all patches (agentset)
+  
+end
