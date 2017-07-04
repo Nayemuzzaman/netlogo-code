@@ -1,0 +1,7 @@
+
+ 
+to setup 
+  create-turtles 10
+ 
+  
+end
